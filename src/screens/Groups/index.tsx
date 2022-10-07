@@ -1,10 +1,11 @@
+import Header from "@components/Header";
 import React from "react";
-import { Container, TextView } from "./styles";
+import { Container } from "./styles";
 
 const Groups = () => {
   return (
     <Container>
-      <TextView>Groups</TextView>
+      <Header />
     </Container>
   );
 };
