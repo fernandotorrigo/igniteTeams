@@ -1,11 +1,11 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Container, TextView } from "./styles";
 
 const Groups = () => {
   return (
-    <View>
-      <Text>Groups</Text>
-    </View>
+    <Container>
+      <TextView>Groups</TextView>
+    </Container>
   );
 };
 
